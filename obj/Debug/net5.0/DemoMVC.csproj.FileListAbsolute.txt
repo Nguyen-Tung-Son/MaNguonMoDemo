@@ -38,3 +38,4 @@ C:\MaNguonMo\DemoMVC\obj\Debug\net5.0\ref\DemoMVC.dll
 C:\MaNguonMo\DemoMVC\obj\Debug\net5.0\DemoMVC.pdb
 C:\MaNguonMo\DemoMVC\obj\Debug\net5.0\DemoMVC.genruntimeconfig.cache
 C:\MaNguonMo\DemoMVC\obj\Debug\net5.0\DemoMVC.csproj.CopyComplete
+C:\MaNguonMo\DemoMVC\obj\Debug\net5.0\Razor\Views\HelloWorld\Index.cshtml.g.cs
