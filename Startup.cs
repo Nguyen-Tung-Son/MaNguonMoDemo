@@ -9,7 +9,7 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Microsoft.EntityFrameworkCore;
-
+using DemoMVC.Data;
 namespace DemoMVC
 {
     public class Startup
@@ -28,7 +28,7 @@ namespace DemoMVC
         {
             services.AddControllersWithViews();
 
-             services.AddDbContext<MvcMovieContext>(options =>
+             services.AddDbContext<ApplicationDbContext>(options =>
         {
             var connectionString = Configuration.GetConnectionString("MvcMovieContext");
 

@@ -4,10 +4,10 @@ using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
-
+using DemoMVC.Data;
 namespace DemoMVC.Migrations
 {
-    [DbContext(typeof(MvcMovieContext))]
+    [DbContext(typeof(ApplicationDbContext))]
     [Migration("20211129032331_Create_table_Movie")]
     partial class Create_table_Movie
     {

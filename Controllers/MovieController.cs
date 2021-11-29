@@ -6,14 +6,14 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
 using DemoMVC.Models;
-
+using DemoMVC.Data;
 namespace DemoMVC.Controllers
 {
     public class MovieController : Controller
     {
-        private readonly MvcMovieContext _context;
+        private readonly ApplicationDbContext _context;
 
-        public MovieController(MvcMovieContext context)
+        public MovieController(ApplicationDbContext context)
         {
             _context = context;
         }
