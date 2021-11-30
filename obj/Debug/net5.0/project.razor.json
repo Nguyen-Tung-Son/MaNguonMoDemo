@@ -15714,6 +15714,11 @@
       "FileKind": "mvc"
     },
     {
+      "FilePath": "c:\\MaNguonMo\\DemoMVC\\Views\\SinhVien\\Index.cshtml",
+      "TargetPath": "Views\\SinhVien\\Index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "c:\\MaNguonMo\\DemoMVC\\Views\\_ViewStart.cshtml",
       "TargetPath": "Views\\_ViewStart.cshtml",
       "FileKind": "mvc"
@@ -15721,6 +15726,11 @@
     {
       "FilePath": "c:\\MaNguonMo\\DemoMVC\\Views\\Person\\Details.cshtml",
       "TargetPath": "Views\\Person\\Details.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\MaNguonMo\\DemoMVC\\Views\\SinhVien\\Create.cshtml",
+      "TargetPath": "Views\\SinhVien\\Create.cshtml",
       "FileKind": "mvc"
     },
     {
@@ -15771,6 +15781,11 @@
     {
       "FilePath": "c:\\MaNguonMo\\DemoMVC\\Views\\Employee\\Edit.cshtml",
       "TargetPath": "Views\\Employee\\Edit.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\MaNguonMo\\DemoMVC\\Views\\SinhVien\\Details.cshtml",
+      "TargetPath": "Views\\SinhVien\\Details.cshtml",
       "FileKind": "mvc"
     },
     {
@@ -15831,6 +15846,16 @@
     {
       "FilePath": "c:\\MaNguonMo\\DemoMVC\\Views\\Product\\Details.cshtml",
       "TargetPath": "Views\\Product\\Details.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\MaNguonMo\\DemoMVC\\Views\\SinhVien\\Edit.cshtml",
+      "TargetPath": "Views\\SinhVien\\Edit.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\MaNguonMo\\DemoMVC\\Views\\SinhVien\\Delete.cshtml",
+      "TargetPath": "Views\\SinhVien\\Delete.cshtml",
       "FileKind": "mvc"
     },
     {

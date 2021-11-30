@@ -20,6 +20,7 @@ namespace DemoMVC.Data
         public DbSet<Student> Student { get; set; }
         public DbSet<KhachHang> khachHangs { get; set; }
         public DbSet<HoaDon> hoaDons { get; set; }
+        public DbSet<DemoMVC.Models.SinhVien> SinhVien { get; set; }
         
        
     }

@@ -200,3 +200,8 @@ C:\MaNguonMo\DemoMVC\obj\Debug\net5.0\Razor\Views\HoaDon\Delete.cshtml.g.cs
 C:\MaNguonMo\DemoMVC\obj\Debug\net5.0\Razor\Views\HoaDon\Details.cshtml.g.cs
 C:\MaNguonMo\DemoMVC\obj\Debug\net5.0\Razor\Views\HoaDon\Edit.cshtml.g.cs
 C:\MaNguonMo\DemoMVC\obj\Debug\net5.0\Razor\Views\HoaDon\Index.cshtml.g.cs
+C:\MaNguonMo\DemoMVC\obj\Debug\net5.0\Razor\Views\SinhVien\Create.cshtml.g.cs
+C:\MaNguonMo\DemoMVC\obj\Debug\net5.0\Razor\Views\SinhVien\Delete.cshtml.g.cs
+C:\MaNguonMo\DemoMVC\obj\Debug\net5.0\Razor\Views\SinhVien\Details.cshtml.g.cs
+C:\MaNguonMo\DemoMVC\obj\Debug\net5.0\Razor\Views\SinhVien\Edit.cshtml.g.cs
+C:\MaNguonMo\DemoMVC\obj\Debug\net5.0\Razor\Views\SinhVien\Index.cshtml.g.cs
