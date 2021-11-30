@@ -19,9 +19,16 @@ namespace DemoMVC.Controllers
         }
 
         // GET: Movie
-        public async Task<IActionResult> Index()
+        public async Task<IActionResult> Index(String SearchString)
         {
-            return View(await _context.Movie.ToListAsync());
+            //Select danh sach cac ban ghi Movie trong database
+           var moviesList = from m in _context.Movie select m;
+           if( !String.IsNullOrEmpty(SearchString))
+           {
+               moviesList = moviesList.Where(m => m.Title.Contains (SearchString) );
+           }
+           //tra ve list movie voi dieu kien Title co chua tu khoa tim kiem (bat dong bo)
+            return View(await moviesList.ToListAsync());
         }
 
         // GET: Movie/Details/5

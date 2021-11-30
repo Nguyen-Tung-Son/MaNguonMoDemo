@@ -20,9 +20,16 @@ namespace DemoMVC.Controllers
         }
 
         // GET: Student
-        public async Task<IActionResult> Index()
+         public async Task<IActionResult> Index(String SearchString)
         {
-            return View(await _context.Student.ToListAsync());
+            //Select danh sach cac student trong database
+           var studentList = from m in _context.Student select m;
+           if( !String.IsNullOrEmpty(SearchString))
+           {
+               studentList = studentList.Where(m => m.FullName.Contains (SearchString) );
+           }
+           //tra ve list student voi dieu kien Fullname co chua tu khoa tim kiem (bat dong bo)
+            return View(await studentList.ToListAsync());
         }
 
         // GET: Student/Details/5
