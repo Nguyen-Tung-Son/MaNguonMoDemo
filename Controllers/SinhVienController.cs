@@ -46,6 +46,13 @@ namespace DemoMVC.Controllers
         // GET: SinhVien/Create
         public IActionResult Create()
         {
+             var model = _context.SinhVien.ToList();
+            if (model.Count == 0) ViewBag.id = "SV001";
+            else
+            {
+                var id = model.OrderByDescending(s => s.SinhVienID).FirstOrDefault().SinhVienID;
+                ViewBag.id = ProcessString.AutoKey(id);
+            }
             return View();
         }
 

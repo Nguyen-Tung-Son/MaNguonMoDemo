@@ -106,6 +106,8 @@ namespace DemoMVC.Migrations
                         .HasColumnType("INTEGER");
 
                     b.Property<string>("FullName")
+                        .IsRequired()
+                        .HasMaxLength(60)
                         .HasColumnType("TEXT");
 
                     b.Property<string>("PersonCode")
@@ -150,6 +152,8 @@ namespace DemoMVC.Migrations
                     b.HasBaseType("DemoMVC.Models.Person");
 
                     b.Property<string>("Address")
+                        .IsRequired()
+                        .HasMaxLength(60)
                         .HasColumnType("TEXT");
 
                     b.Property<string>("Age")
@@ -159,6 +163,8 @@ namespace DemoMVC.Migrations
                         .HasColumnType("TEXT");
 
                     b.Property<string>("Universisty")
+                        .IsRequired()
+                        .HasMaxLength(60)
                         .HasColumnType("TEXT");
 
                     b.ToTable("Student");
