@@ -61,7 +61,7 @@ namespace DemoMVC.Controllers
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Create([Bind("Universisty,Address,PhoneNumber,PersonId,PersonCode,FullName")] Student student)
+        public async Task<IActionResult> Create([Bind("Universisty,Address,PhoneNumber,PersonId,PersonCode,FullName,Age")] Student student)
         {
             if (ModelState.IsValid)
             {
@@ -93,7 +93,7 @@ namespace DemoMVC.Controllers
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Edit(int id, [Bind("Universisty,Address,PhoneNumber,PersonId,PersonCode,FullName")] Student student)
+        public async Task<IActionResult> Edit(int id, [Bind("Universisty,Address,PhoneNumber,PersonId,PersonCode,FullName,Age")] Student student)
         {
             if (id != student.PersonId)
             {
